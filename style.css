@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #f3d3d3;
+    overflow: hidden;
+    padding: 0px 12px 0px 430px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 9.5px;
+    text-decoration: none;
+   
+}
+
+/* Define different background colors for each menu item */
+nav a:nth-child(odd) {
+    
+    background-color: #4CAF50;
+    /* Green */
+}
+
+nav a:nth-child(even) {
+    background-color: #2196F3;
+    /* Blue */
+}
+
+nav a:hover {
+    background-color: #555;
+}
